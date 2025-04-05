@@ -57,48 +57,48 @@ Ensure you have the following installed:
 The database consists of **four main tables**, each representing a cricket match format:  
 
 ### **ODI_Matches Table**  
-- Match ID  
-- Date  
-- Teams  
+- Match type
+- Season
+- City
 - Venue  
 - Toss Winner & Decision  
-- Match Winner  
-- Player of the Match  
+- Match Winner
+- Player of the Match
+- Teams Batter Bowler
 - Runs, Wickets, Overs  
 
 ### **Test_Matches Table**  
-- Match ID  
-- Date  
-- Teams  
+- Match type
+- Season
+- City
 - Venue  
 - Toss Winner & Decision  
-- Match Winner  
-- Player of the Match  
-- First Innings Score  
-- Second Innings Score  
+- Match Winner
+- Player of the Match
+- Teams Batter Bowler
+- Runs, Wickets, Overs   
 
 ### **T20_Matches Table**  
-- Match ID  
-- Date  
-- Teams  
+- Match type
+- Season
+- City
 - Venue  
 - Toss Winner & Decision  
-- Match Winner  
-- Player of the Match  
+- Match Winner
+- Player of the Match
+- Teams Batter Bowler
 - Runs, Wickets, Overs  
-- Boundaries (4s, 6s)  
 
 ### **IPL_Matches Table**  
-- Match ID  
-- Date  
-- Teams  
+- Match type
+- Season
+- City
 - Venue  
 - Toss Winner & Decision  
-- Match Winner  
-- Player of the Match  
+- Match Winner
+- Player of the Match
+- Teams Batter Bowler
 - Runs, Wickets, Overs  
-- Team Run Rate  
-- Powerplay Score  
 
 ## Contribution  
 Feel free to contribute by forking the repository and submitting pull requests.  
